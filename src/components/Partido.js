@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "react-bootstrap";
 
-export default function Partido({partidoData}) {
+export default function Partido({partidoData, partidoExtra}) {
     const [showApuestas, setShowApuestas] = useState(false)
 
     return (
